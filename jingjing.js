@@ -1,9 +1,12 @@
-/**
- * @name 鲸鲸音源
- * @description MusicFree 音源插件 | 爱听音乐网(m.6uq.cn) 主源 + 网易云 + 补源(buguyy/wwyy) 多源兜底
- * @version 1.2.5
- * @author 大肥鱼
- * @homepage https://m.6uq.cn
+/*!
+ * @name         鲸鲸音源
+ * @description  MusicFree 音源插件 | 6uq 主源 + 网易云 + 补源多源兜底
+ * @version      v1.2.6
+ * @author       大肥鱼
+ * @homepage     https://github.com/ove522/jingjing-music-source
+ * @lastUpdate   2026-11-02
+ * @update       1. 修正插件名与版本号字段，MusicFree 订阅可正确识别；2. 过滤 DJ/翻唱/串烧等二改版本
+ * @license      仅供学习交流，请支持正版
  */
 
 // 环境自带全局 axios（MusicFree 沙箱里没有 require）
@@ -399,8 +402,8 @@ const memo = {};
 const idKeyword = {}; // id -> 关键词，getMediaSource 时补源要用
 
 module.exports = {
-  platform: "鲸鲸音源",
-  version: "1.2.5",
+  pluginName: "鲸鲸音源",
+  version: "1.2.6",
   author: "大肥鱼",
   srcUrl: HOST,
   cacheControl: "no-store",
