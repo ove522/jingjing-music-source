@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {
+      "name": "鲸鲸音源",
+      "url": "https://raw.githubusercontent.com/ove522/jingjing-music-source/main/jingjing.js",
+      "version": "1.2.5"
+    }
+  ]
+}
