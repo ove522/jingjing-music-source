@@ -1,8 +1,8 @@
 # 鲸鲸音源
 
-MusicFree 音源插件 v1.2.5
+MusicFree 音源插件 v1.2.6
 
-## 订阅链接（推荐）
+## 订阅链接（推荐用这个）
 
 ```
 https://raw.githubusercontent.com/ove522/jingjing-music-source/main/sub.json
@@ -15,6 +15,11 @@ https://raw.githubusercontent.com/ove522/jingjing-music-source/main/jingjing.js
 ```
 
 ## 版本记录
+
+### v1.2.6 (2026-11-02)
+- 修复：导出字段 platform 改为 pluginName，MusicFree 订阅后能正确显示插件名
+- 修复：文件头注释补全 @name / @version / @update，识别更稳定
+- 版本号同步到 1.2.6
 
 ### v1.2.5 (2026-11-02)
 - 新增：过滤 DJ、Remix、伴奏、翻唱、Cover、Live、现场、加速、串烧、合唱、Type Beat 等二改版本
